@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I "C:\Program Files\MDK 4.70A\ARM\RV31\INC" 
+-I "C:\Program Files\MDK 4.70A\ARM\CMSIS\Include" 
+-I "C:\Program Files\MDK 4.70A\ARM\Inc\ST\STM32F10x" 
+--list ".\os_cpu_a.lst" --xref -o ".\os_cpu_a.o" --depend ".\os_cpu_a.d" "..\uCOSII\PORTS\os_cpu_a.asm"
